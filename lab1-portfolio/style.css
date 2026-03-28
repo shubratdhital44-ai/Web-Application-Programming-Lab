@@ -1,0 +1,254 @@
+.Parent{
+    display:flex;
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+}
+.btm{
+    color:whitesmoke;
+    border:none;
+    width:20%;
+    background-color:lightslategray;
+    height:40px;
+    font-size:16px; 
+    border-radius:6px;
+    cursor:pointer; 
+
+}
+.btm:hover{
+    color:whitesmoke;
+    background-color:blue;   
+}
+
+.Nav_bar{
+    color:rgb(12, 12, 12);
+    display:flex;
+    justify-content:space-between;
+    background-color: lightslategray;
+    align-items: center;
+    padding:10px 10px;
+    position: sticky;
+    top:0;
+    
+}
+footer{
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    background-color: lightslategray;
+}
+.Nav_bar a{
+    color:rgb(12, 12, 12);
+    font-size:18px;
+    margin: 0 15px;
+    text-decoration: none;
+    padding:8px 12px;
+
+}
+.Nav_bar a:hover{
+    color:black;
+    font-weight:bold;
+}
+.row{
+    list-style:none;
+    display: flex;
+    gap:10px;
+}
+
+.Nav_bar ul li a{
+    text-decoration: none;
+}
+.child1{
+    width:500px;
+    height:500px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 3px solid lightblue;
+    box-shadow: 0px 4px 10px gray;
+}
+th,td{
+    border: 2px solid black;
+    padding:8px;
+    margin:20px;
+
+}
+table{
+    border-collapse: collapse;
+    width:75%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+
+}
+
+#calendar {
+    padding: 50px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#calendar h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #053062;
+    border-bottom: 2px solid #3e2d5a;
+}
+
+.calendar-box {
+    background-color: rgb(217, 221, 226);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.cal-top {
+    background-color:#72afcd;
+     border-bottom: 2px solid #5780a0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+}
+
+.cal-top h3 {
+    font-size: 16px;
+}
+
+.cal-top button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.cal-top button:hover {
+    background-color: #2d445a;
+}
+
+.day-names {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #2d445a;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.day-names span {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 10px;
+    gap: 8px;
+    min-height: 350px;
+}
+
+.days-grid div {
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.days-grid div:hover {
+    background-color: #76b5d471;
+}
+
+.days-grid div.today {
+    background-color:#72afcd; 
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.days-grid div.empty {
+    color: #d7d7d8;
+}
+
+#lab{
+     background-color: rgb(124, 164, 178);
+}
+
+th{
+    background-color: lightgray;
+}
+#project table{
+    width: 100%;
+
+}
+body{
+    font-family:poppins, sans-serif;
+    line-height: 1.6;
+}
+html {
+    scroll-behavior: smooth;
+}
+#submitBtn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightslategrey;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#submitBtn:hover{
+    background-color: blue;
+    color: lightgrey;
+}
+section{
+    padding: 50px 80px;
+}
+#contact{
+     display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:40px 20px;
+}
+#contact h2{
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.myform{
+    padding:25px;
+    width:100%;
+    max-width: 400px;
+    border-radius: 8px ;
+    box-shadow: 0px 4px 10px lightskyblue;
+}
+.input{
+    margin-bottom: 15px;
+}
+.input label{
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input input, 
+.input textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.input input:focus,
+.input textarea:focus {
+    border-color: lightblue;
+    box-shadow: 0 0 5px lightblue;
+}
